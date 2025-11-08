@@ -1,0 +1,114 @@
+/* Article Content Styles - Japanese-optimized typography */
+.article-content {
+    font-size: 1rem;
+    line-height: 1.9;
+    color: #44403c; /* stone-700 */
+}
+
+.article-content p {
+    margin-bottom: 1.25rem;
+    color: #44403c; /* stone-700 */
+}
+
+.article-content p:last-child {
+    margin-bottom: 0;
+}
+
+.article-content h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1c1917; /* stone-900 */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e7e5e4; /* stone-200 */
+}
+
+.article-content h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #292524; /* stone-800 */
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.article-content ul, .article-content ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: #44403c;
+}
+
+.article-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+}
+
+.article-content strong {
+    font-weight: 600;
+    color: #1c1917; /* stone-900 */
+}
+
+.article-content em {
+    font-style: italic;
+    color: #57534e; /* stone-600 */
+}
+
+.article-content a {
+    color: #0284c7; /* sky-600 */
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.article-content a:hover {
+    color: #0369a1; /* sky-700 */
+}
+
+.article-content blockquote {
+    border-left: 3px solid #0ea5e9; /* sky-500 */
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #57534e; /* stone-600 */
+    font-style: italic;
+}
+
+.article-content code {
+    background-color: #f5f5f4; /* stone-100 */
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    color: #dc2626; /* red-600 */
+}
+
+.article-content pre {
+    background-color: #f5f5f4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.25rem 0;
+}
+
+.article-content pre code {
+    background-color: transparent;
+    padding: 0;
+    color: #44403c;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .article-content {
+        font-size: 0.9375rem; /* 15px */
+        line-height: 1.85;
+    }
+    
+    .article-content h3 {
+        font-size: 1.0625rem; /* 17px */
+    }
+}
+
+/* Improve readability on small screens */
+@media (max-width: 480px) {
+    .article-content {
+        font-size: 0.875rem; /* 14px */
+        line-height: 1.8;
+    }
+}

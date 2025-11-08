@@ -1,0 +1,78 @@
+[site]
+name = "Manrabu"
+description = "人気マンガの最新話を公式サイトで無料・安全に読む方法を紹介"
+domain = "https://manrabu.com"
+contact_email = "contact@manrabu.com"
+
+[brand]
+tagline = "公式サイトで安全に読む"
+
+# Navigation Links
+[[navigation]]
+label = "ホーム"
+path = "/"
+active = true
+
+[[navigation]]
+label = "最新作品"
+path = "/latest"
+active = true
+
+[[navigation]]
+label = "よくある質問"
+path = "/faq"
+active = true
+
+
+[[platforms]]
+name = "少年ジャンプ+"
+url = "https://shonenjumpplus.com/"
+description = "オリジナルマンガも充実"
+priority = 1
+
+
+[[platforms]]
+name = "コミックDAYS"
+url = "https://comic-days.com/"
+description = "講談社の公式マンガアプリ"
+priority = 2
+
+[[platforms]]
+name = "マンガワン"
+url = "https://manga-one.com/"
+description = "小学館の公式マンガアプリ"
+priority = 3
+
+# FAQ Section
+[[faq]]
+question = "このサイトでマンガを読めますか？"
+answer = "いいえ、当サイトはマンガを直接配信していません。公式プラットフォーム（MangaPlus、少年ジャンプ+など）への案内・情報提供を行っています。"
+
+[[faq]]
+question = "無料で読めますか？"
+answer = "はい！紹介している公式サイトの多くは、最新話を無料で読めます。一部の作品は有料ですが、安全に楽しめます。"
+
+[[faq]]
+question = "漫画raw・mangarawとの違いは？"
+answer = "漫画raw・mangarawは違法サイトで、ウイルスや詐欺のリスクがあります。当サイトは公式プラットフォームのみを紹介し、作家・出版社を応援しています。"
+
+[[faq]]
+question = "どのプラットフォームがおすすめですか？"
+answer = "集英社作品なら「MangaPlus」「少年ジャンプ+」、講談社作品なら「コミックDAYS」、小学館作品なら「マンガワン」がおすすめです。すべて公式・安全です。"
+
+[[faq]]
+question = "最新話はいつ更新されますか？"
+answer = "作品ごとに更新スケジュールが異なります。各作品ページで次回更新日をカウントダウン表示していますので、ご確認ください。"
+
+[[faq]]
+question = "読みたいマンガが見つからない場合は？"
+answer = "検索機能をご利用ください。見つからない場合は、お問い合わせページからリクエストをお送りください。"
+
+# Social & Meta
+[social]
+twitter_card = "summary_large_image"
+og_image = "/og-image.jpg"
+
+[footer]
+copyright = "© 2025 JMANGA"
+disclaimer = "公式配信サイトを案内しています"
